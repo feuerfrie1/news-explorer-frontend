@@ -1,0 +1,21 @@
+.saved-header__paragraph {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+    color: #1A1B22;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .saved-header__paragraph {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 670px) {
+    .saved-header__paragraph {
+      font-size: 18px;
+    }
+  }

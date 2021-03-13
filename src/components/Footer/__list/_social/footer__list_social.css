@@ -1,0 +1,12 @@
+.footer__list_social {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .footer__list_social {
+      margin-left: 35px;
+    }
+  }

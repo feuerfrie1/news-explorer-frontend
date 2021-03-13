@@ -1,0 +1,11 @@
+@import url(./__title/news-cards__title.css);
+@import url(./__list/news-cards__list.css);
+@import url(./__show-more-button/news-cards__show-more-button.css);
+
+.news-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F5F6F7;
+}

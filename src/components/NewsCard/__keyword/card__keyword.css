@@ -1,0 +1,24 @@
+.card__keyword {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    color: #000000;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    background-color: #ffffff;
+    padding: 0 12px;
+    border-radius: 10px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .card__keyword {
+      left: 8px;
+      top: 8px;
+    }
+  }

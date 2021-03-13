@@ -1,0 +1,7 @@
+.footer__list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    margin-top: 0;
+    margin-bottom: 0;
+  }

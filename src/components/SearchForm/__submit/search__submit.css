@@ -1,0 +1,46 @@
+.search__submit {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #2F71E5;
+    border: none;
+    box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+    border-radius: 100px;
+    outline: none;
+    width: 168px;
+    margin-left: -80px;
+  }
+  
+  .search__submit:hover {
+    transition: background-color .3s linear;
+    background-color: #347EFF;
+    cursor: url(../../../images/cursor/pointer.svg), default;
+  }
+  
+  .search__submit:focus {
+    background: #2A65CC;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .search__submit {
+      width: 160px;
+    }
+  }
+  
+  @media screen and (max-width: 670px) {
+    .search__submit {
+      height: 56px;
+      width: 367px;
+      margin-left: 0;
+      margin-top: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+    .search__submit {
+      width: 288px;
+    }
+  }

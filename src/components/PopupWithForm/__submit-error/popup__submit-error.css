@@ -1,0 +1,16 @@
+.popup__submit-error {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF0000;
+    visibility: hidden;
+    text-align: center;
+    z-index: 1;
+    margin: 4px 36px 0;
+  }
+  
+  @media screen and (max-width: 374px) {
+    .popup__submit-error {
+      margin: 4px 16px 0;
+    }
+  }

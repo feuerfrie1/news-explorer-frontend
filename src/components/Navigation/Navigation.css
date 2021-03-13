@@ -1,0 +1,51 @@
+@import url(./__link/nav__link.css);
+@import url(./__link/_theme/_light/nav__link_theme_light.css);
+@import url(./__link/_theme/_dark/nav__link_theme_dark.css);
+@import url(./__link/_active/_light/nav__link_active_light.css);
+@import url(./__link/_active/_dark/nav__link_active_dark.css);
+@import url(./__link/_hidden/nav__link_hidden.css);
+@import url(./__logout/nav__logout.css);
+@import url(./__logout/_theme/_dark/nav__logout_theme_dark.css);
+@import url(./__logout-user/nav__logout-user.css);
+@import url(./__logout-icon/nav__logout-icon.css);
+@import url(./__logout-icon/_hidden/nav__logout-icon_hidden.css);
+
+.nav {
+  display: flex;
+  margin-top: 19px;
+  align-items: baseline;
+  margin-right: 104px;
+}
+
+@media screen and (max-width: 1023px) {
+  .nav {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 286px;
+    background-color: #1A1B22;
+    top: 0;
+    left: 0;
+    padding-top: 83px;
+    border-radius: 0 0 10px 10px;
+    z-index: 3;
+    margin-top: 0;
+  }
+  .nav_opened {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .nav {
+    padding-top: 73px;
+  }
+}

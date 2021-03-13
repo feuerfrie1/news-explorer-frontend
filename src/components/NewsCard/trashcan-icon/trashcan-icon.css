@@ -1,0 +1,7 @@
+.trashcan-icon {
+    background-image: url(../../../images/icon/trashcan.svg);
+  }
+  
+  .trashcan-icon:hover {
+    background-image: url(../../../images/icon/trashcan-hover.svg);
+  } 

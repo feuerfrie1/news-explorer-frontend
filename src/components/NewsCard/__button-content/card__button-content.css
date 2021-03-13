@@ -1,0 +1,13 @@
+.card__button-content {
+    position: absolute;
+    display: flex;
+    right: 24px;
+    top: 24px;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .card__button-content {
+      right: 8px;
+      top: 8px;
+    }
+  }

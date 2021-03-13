@@ -1,0 +1,25 @@
+.card__button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image .3s linear;
+    order: 2;
+  }
+  
+  .card__button:hover ~ .card__button-message {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .card__button:hover {
+    cursor: url(../../../images/cursor/pointer.svg), default;
+  }
