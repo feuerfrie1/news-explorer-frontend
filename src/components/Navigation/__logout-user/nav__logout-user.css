@@ -1,0 +1,13 @@
+.nav__logout-user {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .nav__logout-user {
+      font-size: 16px;
+    }
+  }

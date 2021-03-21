@@ -1,0 +1,38 @@
+.search__input {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A1B22;
+    border: 1px solid #D1D2D6;
+    background: #FFFFFF;
+    border-radius: 100px;
+    outline: none;
+    width: 404px;
+    padding-left: 24px;
+    padding-right: 90px;
+    padding-top: 0;
+    padding-bottom: 0;
+    caret-color: #2F71E5;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .search__input {
+      width: 343px;
+    }
+  }
+  
+  @media screen and (max-width: 670px) {
+    .search__input {
+      height: 56px;
+      padding-right: 24px;
+      width: 319px;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+    .search__input {
+      width: 240px;
+    }
+  }

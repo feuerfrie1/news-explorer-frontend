@@ -1,0 +1,26 @@
+.news-cards__show-more-button {
+    width: 288px;
+    height: 64px;
+    margin-bottom: 80px;
+    background: #FFFFFF;
+    border-radius: 80px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .news-cards__show-more-button:hover {
+    transition: opacity .3s linear;
+    opacity: 0.9;
+    cursor: url(../../../images/cursor/pointer.svg), default;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .news-cards__show-more-button {
+      margin-bottom: 40px;
+    }
+  }

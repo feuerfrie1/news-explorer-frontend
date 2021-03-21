@@ -1,0 +1,28 @@
+.search__form {
+    display: flex;
+    height: 64px;
+    max-width: 608px;
+    margin-top: 64px;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .search__form {
+      max-width: 448px;
+      height: 56px;
+      margin-top: 48px;
+    }
+  }
+  
+  @media screen and (max-width: 670px) {
+    .search__form {
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+    .search__form {
+      margin-top: 122px;
+    }
+  }

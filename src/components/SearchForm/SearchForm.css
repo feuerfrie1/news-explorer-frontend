@@ -1,0 +1,26 @@
+@import url(./__position/search__position.css);
+@import url(./__form/search__form.css);
+@import url(./__title/search__title.css);
+@import url(./__subtitle/search__subtitle.css);
+@import url(./__input/search__input.css);
+@import url(./__submit/search__submit.css);
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/search-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin-top: -81px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .search {
+    margin-top: -67px;
+  }
+}

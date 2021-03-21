@@ -1,0 +1,27 @@
+@import url(./__avatar/about__avatar.css);
+@import url(./__about-me/about__about-me.css);
+@import url(./__title/about__title.css);
+@import url(./__text/about__text.css);
+
+.about {
+  width: calc(100% - 40px * 2);
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 1023px) {
+  .about {
+    padding-bottom: 61px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .about {
+    width: calc(100% - 16px * 2);
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 55px;
+  }
+}

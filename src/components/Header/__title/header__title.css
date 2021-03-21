@@ -1,0 +1,36 @@
+.header__title {
+    font-family: 'Roboto Slab', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 104px;
+    z-index: 4;
+  }
+  
+  .header__title:hover {
+    cursor: url(../../../images/cursor/pointer.svg), default;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .header__title {
+      margin-left: 40px;
+      margin-top: 22px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .header__title {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+    .header__title {
+      margin-left: 16px;
+      margin-top: 16px;
+    }
+  }

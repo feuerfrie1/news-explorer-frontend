@@ -1,0 +1,21 @@
+.card__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 352px;
+    height: 260px;
+    margin: 20px 24px 24px;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .card__text {
+      height: 238px;
+      margin: 16px 16px;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+    .card__text {
+      height: 225px;
+    }
+  }

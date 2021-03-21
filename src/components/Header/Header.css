@@ -1,0 +1,36 @@
+@import url(./__title/header__title.css);
+@import url(./__title/_theme/_dark/header__title_theme_dark.css);
+@import url(./__menu/header__menu.css);
+@import url(./icon-close/icon-close.css);
+@import url(./icon-menu-dark/icon-menu-dark.css);
+@import url(./icon-menu/icon-menu.css);
+@import url(./__backsheet/header__backsheet.css);
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid rgba(127, 120, 120, .6);
+  background: transparent;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    height: 66px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .header {
+    align-items: normal;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header {
+    height: 56px;
+  }
+}

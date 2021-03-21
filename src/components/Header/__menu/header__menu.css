@@ -1,0 +1,28 @@
+.header__menu {
+    width: 30px;
+    height: 30px;
+    margin-right: 40px;
+    border: none;
+    outline: none;
+    display: none;
+    justify-content: center;
+    z-index: 4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+  }
+  
+  @media screen and (max-width: 670px) {
+    .header__menu {
+      display: flex;
+      margin-top: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+    .header__menu {
+      margin-top: 14px;
+      margin-right: 16px;
+    }
+  }
