@@ -11,6 +11,7 @@
     border: none;
     border-radius: 100px;
     margin: 4px 36px 16px;
+    outline: none;
 }
 
 .popup__submit:hover {

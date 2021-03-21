@@ -1,11 +1,7 @@
 .bookmark-icon {
-    background-image: url(../../../images/icon/bookmark-normal.svg);
-  }
-  
-  .bookmark-icon:hover {
-    background-image: url(../../../images/icon/bookmark-hover.svg);
-  }
-  
-  .bookmark-icon:focus {
-    background-image: url(../../../images/icon/bookmark-marked.svg);
-  }
+  background-image: url(../../../images/icon/bookmark-normal.svg);
+}
+
+.bookmark-icon:hover {
+  background-image: url(../../../images/icon/bookmark-hover.svg);
+}

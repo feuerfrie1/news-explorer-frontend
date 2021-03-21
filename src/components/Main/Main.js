@@ -5,14 +5,38 @@ import NewsCardList from '../NewsCardList/NewsCardList';
 import About from '../About/About';
 import Preloader from '../Preloader/Preloader';
 
-function Main() {
-  const [isPreload, setIsPreload] = React.useState(false);
-  const [isSuccess, setIsSuccess] = React.useState(true);
+function Main(props) {
+  const { 
+    isPreload, 
+    getNews, 
+    isSuccess, 
+    errorMessage, 
+    articles, 
+    handleMoreCards, 
+    articlesCounter, 
+    handleSaveCards,
+    handleDeleteArticle,
+    loggedIn,
+    handleLoginPopup,
+  } = props;
 
   return (
     <main className="main">
-      <SearchForm />
-      {(isPreload) ? <Preloader isSuccess={isSuccess} /> : <NewsCardList />}
+      <SearchForm onSubmit={getNews} />
+      {(isPreload) ? 
+        <Preloader isSuccess={isSuccess} errorMessage={errorMessage} />
+      : 
+      (articles.length>0) ? 
+        <NewsCardList 
+          articles={articles} 
+          handleMoreCards={handleMoreCards} 
+          articlesCounter={articlesCounter}
+          handleSaveCards={handleSaveCards}
+          handleDeleteArticle={handleDeleteArticle}
+          loggedIn={loggedIn}
+          handleLoginPopup={handleLoginPopup}
+        /> 
+      : ''}
       <About />
     </main>
   );

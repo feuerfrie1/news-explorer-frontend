@@ -1,0 +1,7 @@
+.bookmark-marked-icon {
+    background-image: url(../../../images/icon/bookmark-marked.svg);
+  }
+  
+  .bookmark-marked-icon:hover {
+    border: 1px solid #000000;
+  }

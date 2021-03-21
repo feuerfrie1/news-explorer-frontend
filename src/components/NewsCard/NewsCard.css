@@ -4,6 +4,7 @@
 @import url(./__button/card__button.css);
 @import url(./bookmark-icon/bookmark-icon.css);
 @import url(./trashcan-icon/trashcan-icon.css);
+@import url(./bookmark-marked-icon/bookmark-marked-icon.css);
 @import url(./__text/card__text.css);
 @import url(./__date/card__date.css);
 @import url(./__title/card__title.css);
@@ -15,6 +16,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 100%;
   min-width: 224px;
   max-width: 400px;
