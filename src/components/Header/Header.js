@@ -6,7 +6,7 @@ import Navigation from '../Navigation/Navigation';
 function Header(props) {
   const { handleLoginPopup, isPopupOpened, loggedIn, signOut } = props;
   let location = useLocation();
-  let isSavedNews = location.pathname==='/saved-news' ? true : false;
+  const isSavedNews = location.pathname==='/saved-news' ? true : false;
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const title = (isSavedNews) ? 'header__title_theme_dark' : '';
 

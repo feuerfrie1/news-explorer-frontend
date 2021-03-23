@@ -56,7 +56,6 @@ function PopupWithForm(props) {
     MainApi.authorize(email, password)
       .then(({ token }) => {
         if(token) {
-          
           localStorage.setItem('token', token);
           getProfileInfo(token);
         }
@@ -155,7 +154,7 @@ function PopupWithForm(props) {
         {(successRegistr) ? '' :
           <>
             <span className={`popup__submit-error ${(isSubmitError) ? 'popup__submit-error_visible' : ''}`} id="button-error">{submitErrorMessage}</span>
-            <button className={`popup__submit ${(validate.isValid || !disabledState) ? '' : 'popup__submit_disabled'}`} disabled={(validate.isValid || !disabledState) ? false : true} type="submit">{buttonSubmit}</button>
+            <button className={`popup__submit ${(validate.isValid) ? '' : 'popup__submit_disabled'}`} disabled={(validate.isValid) ? false : true} type="submit">{buttonSubmit}</button>
             <p className="popup__footer">или<span onClick={handleLinkFooter} className="popup__link">{link}</span></p>
           </>  
         }
