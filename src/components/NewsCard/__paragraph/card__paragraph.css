@@ -1,26 +1,27 @@
 .card__paragraph {
-    font-family: 'Roboto Slab', Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #1A1B22;
-    margin-top: 0;
-    margin-bottom: 10px;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow-y: hidden;
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1A1B22;
+  margin-top: 0;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow-y: hidden;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1023px) {
+  .card__paragraph {
+    margin-bottom: 12px;
   }
-  
-  @media screen and (max-width: 1023px) {
-    .card__paragraph {
-      margin-bottom: 12px;
-    }
+}
+
+@media screen and (max-width: 560px) {
+  .card__paragraph {
+    margin-bottom: 7px;
   }
-  
-  @media screen and (max-width: 560px) {
-    .card__paragraph {
-      margin-bottom: 7px;
-    }
-  }
+}
